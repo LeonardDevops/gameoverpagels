@@ -1,0 +1,47 @@
+@media screen and (max-width:760px) {
+ 
+    .cabecalho-content{
+        flex-direction: column;
+    }
+    #space-menu{
+        height: 80px;
+        flex-direction: column;
+    }
+    .conteudo-content{
+        align-self: center;
+        margin-left: 0;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 75vh;
+        overflow: hidden;
+        scroll-margin-bottom: hidden;
+        
+        
+    }
+    .conteudo-content-sessao{
+        align-items: center;
+        flex-direction: column;
+        width: 80vh;
+        margin-left: 0;
+        height: 100vh;
+        
+        
+        
+    }
+    #img1{
+        width: 70vh;
+    }
+    .imagem-content-main{
+       
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    #space-footer{
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+}
